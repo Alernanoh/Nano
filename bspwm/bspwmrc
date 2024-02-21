@@ -39,7 +39,7 @@ bspc rule -a Emacs state=tiled
 
 #start
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/bin/emacs --daemon &
+#/usr/bin/emacs --daemon &
 feh --bg-fill ~/Pictures/Wallpapers/AOEII.jpg
 picom -b
 ibus-daemon -drxR
